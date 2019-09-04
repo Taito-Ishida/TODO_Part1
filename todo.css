@@ -1,0 +1,456 @@
+/* マジで整理できていない汚いスタイルシートなんであんまり見ないでもらいたいです... */
+
+/* whole property  */
+html {
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+/* hidden text property */
+.hidden {
+    color: rgb(248, 248, 248);
+}
+
+/* span property */
+span {
+    padding: 0px;
+}
+
+/* font-family property */
+header,
+.title-element {
+    font-family: 'Amatic SC', cursive;
+}
+
+footer,
+.text {
+    font-family: "M PLUS Rounded 1c";
+}
+
+/* header property */
+header {
+    background-image: url("./img/picture.png");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+
+}
+
+.header-title {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    padding: 15px 80px 12px 50px;
+    float: left;
+}
+
+.header-element {
+    font-size: 45px;
+    color: rgb(30, 82, 37);
+    padding: 55px 15px;
+    float: left;
+}
+
+/* main property */
+#MainTop {
+    margin: 0px;
+    padding: 620px 0px 0px 0px;
+}
+
+.title-element {
+    font-size: 50px;
+    color: rgb(81, 228, 130);
+    margin: 10px 0px;
+    padding: 30px 0px 10px 50px;
+}
+
+#Skills,
+#Product {
+    border-top: 1px solid rgb(241, 241, 241);
+}
+
+.small-title {
+    font-size: 40px;
+    color: rgb(53, 143, 76);
+    margin: 10px 0px;
+    padding: 10px 100px;
+}
+
+/* profile property */
+.profile-img {
+    padding: 20px 10px 0px 30px;
+    float: left;
+}
+
+.profile-text {
+    color: rgb(85, 85, 85);
+    font-size: 21px;
+    line-height: 180%;
+    margin: 80px 10px 100px 0px;
+    position: relative;
+}
+
+.profile-text:before {
+    content: "";
+    border-top: 8px dashed rgb(141, 230, 153);
+    display: block;
+    max-width: 200px;
+    -webkit-transform: translateX(221%);
+    transform: translateX(221%);
+}
+
+/* history property */
+.history-margin {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 150px;
+}
+
+.history-border {
+    height: 0px;
+    border-radius: 1.5em;
+    border: 3px solid rgb(130, 236, 153);
+    max-width: 1000px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 1347.2px;
+    left: 7px;
+    opacity: 0;
+}
+
+.history-text {
+    color: rgb(85, 85, 85);
+    font-size: 22px;
+    line-height: 230%;
+    margin-top: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 1340px;
+}
+
+.year {
+    margin-left: 160px;
+}
+
+.event {
+    margin-left: 360px;
+}
+
+.history_appear {
+    animation: his_app 2.3s 2s forwards ease;
+}
+
+.history-text_appear {
+    opacity: 1;
+    transition-duration: 2s;
+    transition-delay: 4s;
+    transition-timing-function: ease;
+}
+
+/* history-text animation property */
+@keyframes his_app {
+    0% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    50% {
+        opacity: 1;
+        width: 910px;
+        height: 0px;
+    }
+    100% {
+        opacity: 1;
+        width: 910px;
+        height: 420px;
+    }
+}
+
+/* skill property */
+.skill-text {
+    color: rgb(85, 85, 85);
+    font-size: 21px;
+    line-height: 180%;
+    position: relative;
+    margin: 0px 50px;
+}
+
+.skill-text:before {
+    content: "";
+    border-top: 8px dashed rgb(141, 230, 153);
+    display: block;
+    max-width: 200px;
+    -webkit-transform: translateX(1%);
+    transform: translateX(1%);
+}
+
+.skill-img {
+    margin: 15px;
+    float: left;
+}
+.skill-img:hover {
+    transform: scale(1.1) rotate(-10deg);
+}
+
+/* product property */
+.clear {
+    clear: both;
+}
+
+.product-text {
+    color: rgb(85, 85, 85);
+    font-size: 21px;
+    line-height: 180%;
+    position: relative;
+    margin: 0px 50px;
+}
+
+.product-text:before {
+    content: "";
+    border-top: 8px dashed rgb(141, 230, 153);
+    display: block;
+    max-width: 200px;
+    -webkit-transform: translateX(1%);
+    transform: translateX(1%);
+}
+
+/* footer property */
+footer {
+    background-color: rgb(75, 160, 93);
+    height: 411px;
+    padding: 30px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.footer-element {
+    font-size: 20px;
+    color: snow;
+    padding: 15px;
+}
+
+/* contact property */
+.contact-text {
+    font-size: 25px;
+    line-height: 300%;
+    color: snow;
+    padding: 15px;
+}
+
+#Contact {
+    font-size: 21px;
+}
+
+/* SNS property */
+.SNS {
+    position: relative;
+    overflow: hidden;
+}
+
+.SNS p {
+    position: relative;
+    left: 42%;
+    float: left;
+}
+.SNS-img {
+    margin: 10px 10px 0px 10px;
+    position: relative;
+    left: -42%;
+    float: left;
+    list-style: none;
+}
+
+/*-----------------------------------------------------*/
+
+/* button property */
+.button {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    outline: none;
+}
+
+header .button {
+    height: 100px;
+    width: 150px;
+}
+
+header .button:hover {
+    opacity: 0.3;
+}
+
+footer .button {
+    border-radius: 1.5em;
+    border: 2px solid #fff;
+    height: 60px;
+    width: 150px;
+}
+
+footer .button:hover {
+    background-color: rgba(223, 223, 223, 0.3);
+}
+
+.button::before,
+.button::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+}
+
+.button,
+.button::before,
+.button::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+/* PageTop button property */
+.pagetop {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.pagetop a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.pagetop:hover {
+    opacity: 0.7;
+}
+
+/*-----------------------------------------------------*/
+
+/* text fade property */
+.fade_off {
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+.fade_on {
+    opacity: 1;
+}
+
+/*-----------------------------------------------------*/
+
+/* rotate loader property */
+.loader_point {
+    font-size: 1px;
+    border-radius: 50%;
+    color: rgb(81, 228, 130);
+    margin: 13px 20px 60px 122px;
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    box-shadow: inset 0 0 0 0.5em;
+    z-index: 9999;
+    transition: all 1.3s 3s ease-out;
+}
+
+.loader_point_active {
+    border-radius: 0px;
+    -webkit-transform: rotate(405deg);
+    -ms-transform: rotate(405deg);
+    transform: rotate(405deg);
+}
+
+.loader_off {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 16px 20px 60px 125px;
+    position: absolute;
+}
+
+.loader_on,
+.loader_on:before,
+.loader_on:after {
+    border-radius: 50%;
+}
+
+.loader_on {
+    color: rgb(81, 228, 130);
+    font-size: 11px;
+    text-indent: -99999em;
+    margin: 10px 20px 30px 110px;
+    top: 1288px;
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    box-shadow: inset 0 0 0 0.5em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.loader_on:before,
+.loader_on:after {
+    transition-delay: 2s;
+    position: absolute;
+    content: '';
+}
+
+.loader_on:before {
+    width: 2.6em;
+    height: 5.6em;
+    background: #fff;
+    border-radius: 5.6em 0 0 5.6em;
+    top: -0.05em;
+    left: -0.05em;
+    -webkit-transform-origin: 2.6em 2.55em;
+    transform-origin: 2.6em 2.55em;
+    -webkit-animation: load2 1.5s ease 0.4s;
+    animation: load2 1.5s ease 0.4s;
+}
+
+.loader_on:after {
+    width: 2.6em;
+    height: 5.6em;
+    background: #fff;
+    border-radius: 0 5.6em 5.6em 0;
+    top: -0.05em;
+    left: 2.55em;
+    -webkit-transform-origin: 0px 2.55em;
+    transform-origin: 0px 2.55em;
+    -webkit-animation: load2 1.5s ease;
+    animation: load2 1.5s ease;
+}
+
+@-webkit-keyframes load2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes load2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}

@@ -1,0 +1,161 @@
+<!-- the program icon designed by Jyunnya Kobayashi -->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./todo.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./todo.js"></script>
+        <title>Taito Ishida</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-title" id="top">
+                Hello World!
+            </div>
+            <a class="header-element button" href="#AboutMe">
+                About me
+            </a>
+            <a class="header-element button" href="#History">
+                HISTORY
+            </a>
+            <a class="header-element button" href="#Skills">
+                Skills
+            </a>
+            <a class="header-element button" href="#Product">
+                Product
+            </a>
+            <a class="header-element button" href="#Contact">
+                Contact
+            </a>
+        </header>
+        <main>
+            <p id="MainTop"></p>
+            <p class="title-element" id="AboutMe">
+                About me
+            </p>
+            <p id="AboutMe"></p>
+            <div class="profile-img">
+                <img src="img/profile.png" alt="Sample Image" width="400px" height="400px">
+            </div>
+            <section class="profile-text text fade_off">
+                立命館大学 情報理工学部 3回生の石田 泰都です。<br>
+                大学では音声情報処理を専門としており、<br>
+                未来電子のインターンに参加させていただいている普通の大学生です。<br>
+                大学に入ってから自分のPCを持ったような、典型的な情報系初心者でしたが、<br>
+                情報処理技術に強い関心をもって、日々プログラミングスキルを高めるため精進しています。<br>
+                どうも自分は写真を撮られたがらないのか、自画像に使える写真が見つからなかったので、<br>
+                とりあえず高度にデフォルメ & 美化されたイメージ画像を用意しました。<br>
+                <div class = "hidden">実物像との激しい差異が見られますが、あくまでも「画像はイメージです」。</div>
+            </section>
+            <p class="small-title title-element" id="History">
+                history
+            </p>
+            <div class="loader_point"></div>
+            <div class="loader_off"></div>
+            <div class="history-margin"></div>
+            <!-- class = "span"は ('idの数値' * 10px) の空欄を挿入します -->
+            <!-- ぶっちゃけ、あとあと使う必要がなくなったのですが、せっかく作ったのに使わないのがもったいなくて使ってます。marginかpaddingで事足ります-->
+            <section class="history-text text year">
+                <span id="2"></span>幼少期<br>
+                <span id="2"></span>小学生<br>
+                <span id="2"></span>中学生<br>
+                <span id="2"></span>高校生<br>
+                <span id="2"></span>2017年4月<br>
+                <span id="2"></span>2018年<br>
+                <span id="2"></span>2019年7月<br>
+                <span id="2"></span>2019年8月<br>
+            </section>
+            <section class="history-text text event">
+                自然豊かな山口で過ごす<br>
+                何かを作ることが好きで、自由研究でも表彰された<br>
+                ゲームに熱中する<br>
+                それまで接点のなかった情報系を大学で学びたいと思い始める<br>
+                立命館大学 情報理工学部に入学<br>
+                大学で勉強していく中で音声処理への興味が強くなる<br>
+                第一希望で音声情報処理研究室に配属される<br>
+                未来電子でインターンを始める<br>
+            </section>
+            </p>
+            <section class="history-border"></section>
+            <p class="title-element" id="Skills">
+                Skills
+            </p>
+            <section class="skill-text text fade_off">
+                自分が触ったことのあるプログラミング言語をまとめました。<br>
+                触った時間が長い順に左から並べています。<br>
+                <div>
+                    <p class="skill-img">
+                        <img src="./img/c.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/Go.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/Java.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/cs.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/HTML.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/CSS.png" alt="program_icon" width="100" height="100">
+                    </p>
+                    <p class="skill-img">
+                        <img src="./img/JS.png" alt="program_icon" width="100" height="100">
+                    </p>
+                </div>
+            <p class="clear"></p>
+            </section>
+            <p class="title-element" id="Product">
+                Product
+            </p>
+            <section class="product-text text fade_off">
+                JavaScriptで電卓を実装しました。<br>
+            </section>
+            <iframe src="./calculator/calculator.html" width="400" height="600" frameborder="0"></iframe>
+        </main>
+        <footer>
+            <div class="contact-text text">
+                    Thank you for access my page !<br>
+                    If you want to contact me, please click the button !<br>
+                    ↓   ↓   ↓   ↓<br>
+            </div>
+            <a class="footer-element button" id="Contact" href="./contact_form.html">
+                contact
+            </a>
+            <div class="SNS">
+                <p>
+                    <a class="SNS-img" href="https://twitter.com/char_tai">
+                        <img src="./img/twitter.png" alt="Twitter">
+                    </a>
+                </p>
+                <p>
+                    <a class="SNS-img" href="https://www.facebook.com/taito.ishida.161">
+                        <img src="./img/facebook.png" alt="Facebook">
+                    </a>
+                </p>
+                <p>
+                    <a class="SNS-img" href="https://www.instagram.com/taito.ishida.161/?hl=en">
+                        <img src="./img/instagram.png" alt="Instagram">
+                    </a>
+                </p>
+                <p>
+                    <a class="SNS-img" href="https://github.com/Taito-Ishida">
+                        <img src="./img/github.png" alt="GitHub">
+                    </a>
+                </p>
+            </div>
+        </footer>
+        <p class="pagetop">
+            <a href="#top" title="トップに戻る">
+                <img src="./img/pagetop.png" alt="PAGE TOP">
+            </a>
+        </p>
+    </body>
+</html>

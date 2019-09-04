@@ -1,0 +1,79 @@
+#frame {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 50px 10px 10px 50px;
+    padding : 15px 0;
+    width: 262.5px;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+    border : 2px solid #000;
+    box-shadow: 0 0 20px rgb(209, 209, 209);
+    border-radius: 45px;
+}
+
+#screen {
+    color: #fff;
+    margin: 0 auto;
+    text-align: right;
+    line-height: 45px;
+    letter-spacing: 3.75px;
+    width: 225px;
+    height: 45px;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 1.7rem;
+    overflow: hidden;
+}
+
+#screen input {
+    background-color: transparent;
+    border: none;
+}
+
+.horizontal {
+    margin: 3px 0px 0px 15px;
+}
+
+.horizontal a {
+    display: inline-block;
+    margin: 7.5px 2.5px;
+}
+
+.btn {
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    border-radius: 7.5px;
+    border: 2px solid #fff;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(196, 196, 196);
+}
+
+.btn:active {
+    box-shadow: inset 0 0 4px #000;
+}
+
+.zero {
+    width: 105px;
+}
+
+.num {
+    width: 45px;
+}
+
+.ac,
+.topBtn {
+    color: #000;
+    background-color: rgb(226, 226, 226);
+}
+
+.calc {
+    background-color: rgb(131, 233, 106);
+}
