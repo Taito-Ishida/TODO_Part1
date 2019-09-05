@@ -368,7 +368,7 @@ footer .button:hover {
     font-size: 1px;
     border-radius: 50%;
     color: rgb(81, 228, 130);
-    margin: 13px 20px 60px 122px;
+    margin: 53px 20px 60px 122px;
     position: absolute;
     width: 3em;
     height: 3em;
@@ -389,7 +389,7 @@ footer .button:hover {
 .loader_off {
     width: 1.5em;
     height: 1.5em;
-    margin: 16px 20px 60px 125px;
+    margin: 56px 20px 60px 125px;
     position: absolute;
 }
 
@@ -403,7 +403,7 @@ footer .button:hover {
     color: rgb(81, 228, 130);
     font-size: 11px;
     text-indent: -99999em;
-    margin: 10px 20px 30px 110px;
+    margin: 50px 20px 30px 110px;
     top: 1288px;
     position: absolute;
     width: 5em;
