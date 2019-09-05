@@ -100,6 +100,7 @@ header {
     display: block;
     max-width: 200px;
     -webkit-transform: translateX(221%);
+    -ms-transform: translateX(221%);
     transform: translateX(221%);
 }
 
@@ -148,9 +149,15 @@ header {
 
 .history-text_appear {
     opacity: 1;
+    -webkit-transition-duration: 2s;
     transition-duration: 2s;
+    -ms-transition-duration: 2s;
+    -webkit-transition-delay: 4s;
     transition-delay: 4s;
+    -ms-transition-delay: 4s;
+    -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
 }
 
 /* history-text animation property */
@@ -187,6 +194,7 @@ header {
     display: block;
     max-width: 200px;
     -webkit-transform: translateX(1%);
+    -ms-transform: translateX(1%);
     transform: translateX(1%);
 }
 
@@ -195,6 +203,8 @@ header {
     float: left;
 }
 .skill-img:hover {
+	-webkit-transform: scale(1.1) rotate(-10deg);
+	-ms-transform: scale(1.1) rotate(-10deg);
     transform: scale(1.1) rotate(-10deg);
 }
 
@@ -217,6 +227,7 @@ header {
     display: block;
     max-width: 200px;
     -webkit-transform: translateX(1%);
+    -ms-transform: translateX(1%);
     transform: translateX(1%);
 }
 
@@ -313,6 +324,7 @@ footer .button:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all .3s;
+    -ms-transition: all .3s;
     transition: all .3s;
 }
 
@@ -362,6 +374,8 @@ footer .button:hover {
     height: 3em;
     box-shadow: inset 0 0 0 0.5em;
     z-index: 9999;
+    -webkit-transition: all 1.3s 3s ease-out;
+    -ms-transition: all 1.3s 3s ease-out;
     transition: all 1.3s 3s ease-out;
 }
 
@@ -402,6 +416,8 @@ footer .button:hover {
 
 .loader_on:before,
 .loader_on:after {
+	-webkit-transition-delay: 2s;
+	-ms-transition-delay: 2s;
     transition-delay: 2s;
     position: absolute;
     content: '';
